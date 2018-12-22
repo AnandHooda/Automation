@@ -1,6 +1,5 @@
 package igtPractice;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -17,9 +16,6 @@ public class Aeromexico {
 	     
 	     
 	     driver.findElement(By.cssSelector("input[id='round']")).click();      // click on round on trip
-	     //driver.findElement(By.cssSelector("input[id='one']")).click();     // click on single trip
-	    // driver.findElement(By.linkText("Multi-city")).click();            // click on Multi City link
-	    
 	     
 	    //******************Automation code for round on trip*******************//
 	     

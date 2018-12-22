@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="testngPractice(failed)">
+    <classes>
+      <class name="testng.CaptchaHandle">
+        <methods>
+          <include name="OpenUrl"/>
+          <include name="EnterCaptcha"/>
+        </methods>
+      </class> <!-- testng.CaptchaHandle -->
+      <class name="testng.SSLCerification">
+        <methods>
+          <include name="OpenUrl"/>
+        </methods>
+      </class> <!-- testng.SSLCerification -->
+      <class name="testng.JavaExecutor">
+        <methods>
+          <include name="GetandSetText"/>
+        </methods>
+      </class> <!-- testng.JavaExecutor -->
+      <class name="testng.Anand">
+        <methods>
+          <include name="BackWard"/>
+          <include name="ForwardWard"/>
+          <include name="Amit"/>
+        </methods>
+      </class> <!-- testng.Anand -->
+      <class name="testng.AlertProgram">
+        <methods>
+          <include name="OpenUrl"/>
+          <include name="WebBasedAlert"/>
+        </methods>
+      </class> <!-- testng.AlertProgram -->
+      <class name="testng.TestNgClass2">
+        <methods>
+          <include name="firstTestMethod"/>
+          <include name="secondTestMethod"/>
+          <include name="thirdTestMethod"/>
+        </methods>
+      </class> <!-- testng.TestNgClass2 -->
+      <class name="testng.TmeAndDate">
+        <methods>
+          <include name="GetDateAndTime"/>
+        </methods>
+      </class> <!-- testng.TmeAndDate -->
+      <class name="testng.PromptAlert">
+        <methods>
+          <include name="Close"/>
+          <include name="OpenUrl"/>
+          <include name="PromptAlertExample"/>
+        </methods>
+      </class> <!-- testng.PromptAlert -->
+      <class name="testng.DandD">
+        <methods>
+          <include name="OpenUrl"/>
+          <include name="GetDateAndTime"/>
+        </methods>
+      </class> <!-- testng.DandD -->
+      <class name="testng.TestNgClass">
+        <methods>
+          <include name="BeforeTestUse"/>
+          <include name="BeforeMethodUse"/>
+          <include name="BeforeClassUse"/>
+          <include name="SecondMethod"/>
+          <include name="ThirdMethod"/>
+          <include name="AfterTestUse"/>
+          <include name="AfterClassUse"/>
+          <include name="FisrtMethod"/>
+          <include name="AfterMethodUse"/>
+        </methods>
+      </class> <!-- testng.TestNgClass -->
+      <class name="testng.TestNgFirst">
+        <methods>
+          <include name="FirstTestCase"/>
+          <include name="SecondTestCase"/>
+        </methods>
+      </class> <!-- testng.TestNgFirst -->
+      <class name="testng.facebookTestng">
+        <methods>
+          <include name="OpenUrl"/>
+          <include name="GetDateAndTime"/>
+        </methods>
+      </class> <!-- testng.facebookTestng -->
+      <class name="testng.frames">
+        <methods>
+          <include name="OpenUrl"/>
+          <include name="Iframehandle"/>
+        </methods>
+      </class> <!-- testng.frames -->
+      <class name="testng.FlipKart">
+        <methods>
+          <include name="EnterDetail"/>
+          <include name="Close"/>
+          <include name="OpenUrl"/>
+        </methods>
+      </class> <!-- testng.FlipKart -->
+      <class name="testng.PracticeSite">
+        <methods>
+          <include name="test1"/>
+          <include name="common1"/>
+          <include name="common2"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testng.PracticeSite -->
+    </classes>
+  </test> <!-- testngPractice(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
